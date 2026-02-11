@@ -1,0 +1,55 @@
+{
+    "intents": 
+    [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "Hey", "Good day", "Hi there","Howdy"],
+         "responses": ["Hello!", "Hi, how can I assist you today?", "Greetings!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Goodbye", "See you", "Bye", "Talk to you later", "Catch you later"],
+         "responses": ["Goodbye!", "See you later!", "Talk to you soon!"],
+         "context_set": ""
+        },
+        {"tag": "owner",
+         "patterns": ["Who owns this device?", "Who is the owner of this asset?", "Asset owner", "Device owner"],
+         "responses": ["This device is owned by...", "Let me check the owner information for you."],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["Where is this device located?", "Device location", "Asset location", "Where can I find this asset?"],
+         "responses": ["This device is located at...", "The asset can be found at the following location..."],
+         "context_set": ""
+        },
+        {"tag": "status",
+         "patterns": ["What is the status of this device?", "Device status", "Asset status", "Is this device active?"],
+         "responses": ["The status of the device is...", "Checking the current status for you..."],
+         "context_set": ""
+        },
+        {"tag": "warranty",
+         "patterns": ["Is this device under warranty?", "Warranty status", "warranty expiration date", "Device warranty"],
+         "responses": ["The device is under warranty until...", "This asset is not currently under warranty.", "The warranty for this device has expired."],
+         "context_set": ""
+        },
+        {"tag": "vendor",
+         "patterns": ["Who is the vendor for this device", "How do I contact the vendor", "Who do I contact for issues"],
+         "responses": ["The vendor we use for that device is...", "Please hold while I retrieve the vendor's information."],
+         "context_set": ""
+        },
+        {"tag": "acquisition_date",
+         "patterns": ["When was the device receive", "Acquisition date", "Device received date"],
+         "responses": ["This device was received on...", "The acquisition date is..."],
+         "context_set": ""
+        },
+        {"tag": "model",
+         "patterns": ["What is the model of this device?", "Device model", "Asset model", "Model information"],
+         "responses": ["The model of this device is...", "This asset model is..."],
+         "context_set": ""
+        },
+        {"tag": "employee",
+         "patterns": ["Who is the custodian of this device", "Who is the employee's supervisor", "How do I contact this employee"],
+         "responses": ["Here is the contact card for employee..."],
+         "context_set": ""
+        }
+    ]
+}
