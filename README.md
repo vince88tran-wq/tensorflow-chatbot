@@ -10,7 +10,7 @@ Requirements:<br>
 -Punkt from nltk &nbsp;&nbsp;&nbsp;&nbsp; (nltk.download('punkt_tab'))<br>
 <br>
 python -m venv .venv<br>
-.\.venv\Scripts\activate<br>
+.\\.venv\Scripts\activate<br>
 pip install numpy<br>
 pip install tensorflow<br>
 pip install nltk<br>
